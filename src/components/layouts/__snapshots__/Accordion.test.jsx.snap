@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> renders correctly 1`] = `
+<div
+  className="MuiPaper-root MuiExpansionPanel-root MuiPaper-elevation1"
+>
+  <div
+    aria-disabled={false}
+    aria-expanded={false}
+    className="MuiButtonBase-root MuiExpansionPanelSummary-root"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="MuiExpansionPanelSummary-content"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-h6"
+      >
+        dummy
+      </h6>
+    </div>
+    <div
+      aria-disabled={false}
+      aria-hidden={true}
+      className="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={null}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className="MuiCollapse-container MuiCollapse-hidden"
+    style={
+      Object {
+        "minHeight": "0px",
+      }
+    }
+  >
+    <div
+      className="MuiCollapse-wrapper"
+    >
+      <div
+        className="MuiCollapse-wrapperInner"
+      >
+        <div
+          role="region"
+        >
+          <div
+            className="MuiExpansionPanelDetails-root makeStyles-block-1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

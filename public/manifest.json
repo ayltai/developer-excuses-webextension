@@ -1,0 +1,37 @@
+{
+    "manifest_version"     : 2,
+    "name"                 : "Developer Excuses",
+    "short_name"           : "developer-excuses",
+    "description"          : "Overrides your new tabs with a random developer excuse over a beautiful photo background",
+    "version"              : "1.0.0",
+    "homepage_url"         : "https://github.com/ayltai/developer-excuses-webextension",
+    "author"               : "Alan Tai",
+    "applications"         : {
+        "gecko" : {
+            "id"                 : "{81ed2d81-8d08-4678-ac67-4db4405e5853}",
+            "strict_min_version" : "58.0"
+        }
+    },
+    "icons"                : {
+        "16"  : "icon.svg",
+        "24"  : "icon.svg",
+        "32"  : "icon.svg",
+        "48"  : "icon.svg",
+        "64"  : "icon.svg",
+        "72"  : "icon.svg",
+        "96"  : "icon.svg",
+        "128" : "icon.svg",
+        "144" : "icon.svg",
+        "192" : "icon.svg",
+        "256" : "icon.svg",
+        "512" : "icon.svg"
+    },
+    "permissions"          : [
+        "storage",
+        "tabs",
+        "https://unsplash-api-proxy.appspot.com/*"
+    ],
+    "chrome_url_overrides" : {
+        "newtab" : "index.html"
+    }
+}

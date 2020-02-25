@@ -1,0 +1,17 @@
+body {
+    background-color: #fafafa;
+    color: #212121;
+    margin: 0;
+}
+
+h6 {
+    font-size: 1.05em !important;
+    font-weight: 500 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #424242;
+        color: #f5f5f5;
+    }
+}

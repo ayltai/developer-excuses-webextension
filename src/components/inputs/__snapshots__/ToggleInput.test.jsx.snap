@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleInput /> renders correctly 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-4 makeStyles-margin-1"
+>
+  <label
+    className="MuiFormControlLabel-root makeStyles-label-2 MuiFormControlLabel-labelPlacementStart"
+  >
+    <span
+      className="MuiSwitch-root"
+    >
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-23 MuiSwitch-switchBase"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-26 MuiSwitch-input"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <span
+            className="MuiSwitch-thumb"
+          />
+        </span>
+      </span>
+      <span
+        className="MuiSwitch-track"
+      />
+    </span>
+    <span
+      className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+    >
+      dummy
+    </span>
+  </label>
+</div>
+`;
