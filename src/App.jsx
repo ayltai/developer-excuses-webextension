@@ -89,7 +89,7 @@ export const App = () => {
     const getImage = () => getRandomPhoto(pickAny(imageTopics), (url, user, credit) => {
         setImageUrl(url);
         setUsernameTemp(user);
-        setCreditUrlTemp(credit);
+        setCreditUrlTemp(`${credit}?utm_source=Developers%20Excuses&utm_medium=referral`);
     });
 
     React.useEffect(() => {

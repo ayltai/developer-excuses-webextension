@@ -14,6 +14,8 @@ A Firefox/Chrome/Edge extension that overrides your new tabs with a random devel
 
 Available at: https://addons.mozilla.org/addon/animated-developer-excuses/
 
+[![Buy me a coffee](https://img.shields.io/static/v1?label=Buy%20me%20a&message=coffee&color=important&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoff.ee/ayltai)
+
 ![Screenshot 1](design/screenshot-1.png)
 
 ![Screenshot 2](design/screenshot-2.png)
@@ -56,6 +58,9 @@ npm run build
 ```sh
 npm start
 ```
+
+## Want more?
+[Developer Excuses screen saver for macOS](https://github.com/ayltai/MacOS-Developers-Excuses)
 
 ## Acknowledgements
 This software is made with the support of open source projects:
