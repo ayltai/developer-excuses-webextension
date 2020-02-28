@@ -95,7 +95,7 @@ export const App = () => {
     React.useEffect(() => {
         getImage();
 
-        window.browser.storage.sync.get({
+        window.chrome.storage.sync.get({
             ...CONFIGURATION,
         }, configuration => {
             setFontFamily(configuration.fontFamily);
@@ -146,7 +146,7 @@ export const App = () => {
                 fontSize={Math.floor(fontSize * 0.3)}
                 fontShadow={Math.floor(fontShadow * 0.3)}
                 text={creditUrl}
-                onClick={() => window.browser.tabs.update({
+                onClick={() => window.chrome.tabs.update({
                     url : creditUrl,
                 })}/>
             <Box className={classes.settings}>
@@ -223,7 +223,7 @@ export const App = () => {
                         startIcon={<Save />}
                         variant='contained'
                         onClick={() => {
-                            window.browser.storage.sync.set({
+                            window.chrome.storage.sync.set({
                                 fontFamily,
                                 fontSize,
                                 fontWeight,

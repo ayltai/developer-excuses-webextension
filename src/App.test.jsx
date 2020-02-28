@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import browser from 'sinon-chrome/webextensions';
+import chrome from 'sinon-chrome/webextensions';
 
 import { App, } from './App';
 
 jest.mock('./Utils');
 
-window.browser = browser;
+window.chrome = chrome;
 
 describe('<App />', () => {
     it('renders correctly', () => {

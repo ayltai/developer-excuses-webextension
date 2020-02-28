@@ -1,7 +1,7 @@
 {
     "name"            : "developer-excuses-webextension",
     "description"     : "Overrides your new tabs with a random developer excuse over a beautiful photo background",
-    "version"         : "1.0.0",
+    "version"         : "1.0.1",
     "author"          : "Alan Tai",
     "repository"      : {
         "type" : "git",

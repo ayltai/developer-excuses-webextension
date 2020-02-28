@@ -3,7 +3,7 @@
     "name"                 : "Developer Excuses",
     "short_name"           : "developer-excuses",
     "description"          : "Overrides your new tabs with a random developer excuse over a beautiful photo background",
-    "version"              : "1.0.0",
+    "version"              : "1.0.1",
     "homepage_url"         : "https://github.com/ayltai/developer-excuses-webextension",
     "author"               : "Alan Tai",
     "applications"         : {
@@ -12,19 +12,18 @@
             "strict_min_version" : "58.0"
         }
     },
-    "icons"                : {
-        "16"  : "icon.svg",
-        "24"  : "icon.svg",
-        "32"  : "icon.svg",
-        "48"  : "icon.svg",
-        "64"  : "icon.svg",
-        "72"  : "icon.svg",
-        "96"  : "icon.svg",
-        "128" : "icon.svg",
-        "144" : "icon.svg",
-        "192" : "icon.svg",
-        "256" : "icon.svg",
-        "512" : "icon.svg"
+    "icons"                   : {
+        "16"  : "icons/16.png",
+        "24"  : "icons/24.png",
+        "32"  : "icons/32.png",
+        "48"  : "icons/48.png",
+        "64"  : "icons/64.png",
+        "72"  : "icons/72.png",
+        "96"  : "icons/96.png",
+        "128" : "icons/128.png",
+        "192" : "icons/192.png",
+        "256" : "icons/256.png",
+        "512" : "icons/512.png"
     },
     "permissions"          : [
         "storage",
