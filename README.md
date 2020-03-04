@@ -12,7 +12,9 @@ Overrides your new tabs with a random developer excuse over a beautiful photo ba
 
 A Firefox/Chrome/Edge extension that overrides your new tabs with a random developer excuse over a beautiful photo background.
 
-Available at: https://addons.mozilla.org/addon/animated-developer-excuses/
+Available at:
+* Firefox: https://addons.mozilla.org/addon/animated-developer-excuses/
+* Chrome: https://chrome.google.com/webstore/detail/developer-excuses/cgaodmejhjnnjkbbakfmbhojjgfdgeni?hl=en-US
 
 [![Buy me a coffee](https://img.shields.io/static/v1?label=Buy%20me%20a&message=coffee&color=important&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoff.ee/ayltai)
 
