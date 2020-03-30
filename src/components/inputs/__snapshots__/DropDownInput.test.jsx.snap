@@ -40,7 +40,6 @@ exports[`<DropDownInput /> renders correctly 1`] = `
         aria-hidden="true"
         className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconFilled"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
