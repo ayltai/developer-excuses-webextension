@@ -20,7 +20,7 @@ exports[`<DropDownInput /> renders correctly 1`] = `
     >
       <div
         aria-haspopup="listbox"
-        aria-labelledby="dummy "
+        aria-labelledby="dummy"
         className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-filled MuiInputBase-input MuiFilledInput-input"
         onBlur={[Function]}
         onFocus={[Function]}
