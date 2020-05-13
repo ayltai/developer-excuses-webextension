@@ -37,7 +37,7 @@ exports[`<DropDownInput /> renders correctly 1`] = `
         value="a"
       />
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconFilled"
         focusable="false"
         viewBox="0 0 24 24"
