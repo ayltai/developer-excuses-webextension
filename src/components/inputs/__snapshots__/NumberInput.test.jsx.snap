@@ -2,7 +2,7 @@
 
 exports[`<NumberInput /> renders correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-3 makeStyles-margin-1"
+  className="MuiBox-root MuiBox-root-2 makeStyles-margin-1"
 >
   <p
     className="MuiTypography-root MuiTypography-body1"

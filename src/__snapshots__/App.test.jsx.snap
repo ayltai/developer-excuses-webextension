@@ -20,7 +20,7 @@ Array [
     className="MuiTypography-root makeStyles-bottomLeft-2 MuiTypography-body1 MuiTypography-colorTextPrimary"
   >
     <div
-      className="makeStyles-text-37"
+      className="makeStyles-text-7"
       onClick={[Function]}
     >
       
@@ -30,12 +30,12 @@ Array [
     className="MuiTypography-root makeStyles-bottomRight-3 MuiTypography-body1 MuiTypography-colorTextPrimary"
   >
     <div
-      className="makeStyles-text-38"
+      className="makeStyles-text-8"
       onClick={[Function]}
     />
   </p>,
   <div
-    className="MuiBox-root MuiBox-root-40 makeStyles-settings-4"
+    className="MuiBox-root MuiBox-root-9 makeStyles-settings-4"
   >
     <button
       aria-describedby={null}
@@ -79,7 +79,7 @@ Array [
     </button>
   </div>,
   <div
-    className="PrivateSwipeArea-root-103 PrivateSwipeArea-anchorLeft-104"
+    className="PrivateSwipeArea-root-11 PrivateSwipeArea-anchorLeft-12"
     style={
       Object {
         "width": 20,

@@ -2,7 +2,7 @@
 
 exports[`<ToggleInput /> renders correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-4 makeStyles-margin-1"
+  className="MuiBox-root MuiBox-root-3 makeStyles-margin-1"
 >
   <label
     className="MuiFormControlLabel-root makeStyles-label-2 MuiFormControlLabel-labelPlacementStart"
@@ -12,7 +12,7 @@ exports[`<ToggleInput /> renders correctly 1`] = `
     >
       <span
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-23 MuiSwitch-switchBase"
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-4 MuiSwitch-switchBase"
         onBlur={[Function]}
         onDragLeave={[Function]}
         onFocus={[Function]}
@@ -31,7 +31,7 @@ exports[`<ToggleInput /> renders correctly 1`] = `
         >
           <input
             checked={false}
-            className="PrivateSwitchBase-input-26 MuiSwitch-input"
+            className="PrivateSwitchBase-input-7 MuiSwitch-input"
             onChange={[Function]}
             type="checkbox"
           />
