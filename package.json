@@ -28,8 +28,8 @@
         "codecov": "./node_modules/.bin/codecov",
         "preinstall": "npx npm-force-resolutions",
         "start": "web-ext run -s ./build/",
-        "build": "INLINE_RUNTIME_CHUNK=false react-scripts build && ./node_modules/.bin/web-ext build --overwrite-dest -s ./build/",
-        "test": "react-scripts test --ci --no-watchman --coverage --coverageDirectory=coverage",
+        "build": "SKIP_PREFLIGHT_CHECK=true INLINE_RUNTIME_CHUNK=false react-scripts build && ./node_modules/.bin/web-ext build --overwrite-dest -s ./build/",
+        "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test --ci --no-watchman --coverage --coverageDirectory=coverage",
         "eject": "react-scripts eject"
     },
     "devDependencies": {
@@ -40,8 +40,8 @@
         "codecov": "^3.8.0",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.5",
-        "eslint": "^6.8.0",
-        "react-scripts": "^3.4.4",
+        "eslint": "^7.12.0",
+        "react-scripts": "^4.0.0",
         "react-sortable-hoc": "^1.11.0",
         "react-test-renderer": "^17.0.1",
         "sinon-chrome": "^3.0.1",
@@ -56,7 +56,7 @@
         "kenburns": "^2.0.3",
         "prop-types": "^15.7.2",
         "react": "^17.0.1",
-        "react-dom": "^16.14.0",
+        "react-dom": "^17.0.1",
         "unsplash-js": "^6.3.0"
     },
     "resolutions": {
