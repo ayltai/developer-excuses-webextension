@@ -36,7 +36,7 @@
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.6",
         "@testing-library/user-event": "^13.1.8",
-        "acorn": "^8.2.1",
+        "acorn": "^8.2.2",
         "codecov": "^3.8.1",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.6",
@@ -50,9 +50,9 @@
         "web-ext": "^6.1.0"
     },
     "dependencies": {
-        "@material-ui/core": "^4.11.3",
+        "@material-ui/core": "^4.11.4",
         "@material-ui/icons": "^4.11.2",
-        "@material-ui/lab": "^4.0.0-alpha.57",
+        "@material-ui/lab": "^4.0.0-alpha.58",
         "kenburns": "^2.0.3",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
@@ -60,7 +60,7 @@
         "unsplash-js": "^7.0.10"
     },
     "resolutions": {
-        "acorn": "8.2.1",
+        "acorn": "8.2.2",
         "minimist": "1.2.5",
         "yargs-parser": "18.1.3"
     },
